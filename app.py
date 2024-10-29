@@ -21,7 +21,7 @@ def get_route():
     start_lng = request.args.get("start_lng")
     end_lat = request.args.get("end_lat")
     end_lng = request.args.get("end_lng")
-    api_key = "AIzaSyCiCncgh72xOpcY7e-dcH8BgpDT4oKEgFE"
+    api_key = "your_api_key"
 
     directions_url = f"https://maps.googleapis.com/maps/api/directions/json?origin={start_lat},{start_lng}&destination={end_lat},{end_lng}&key={api_key}"
     
